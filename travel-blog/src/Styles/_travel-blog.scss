@@ -1,5 +1,7 @@
 .travel-blog{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, 1fr);
+    @media (min-width:$medium-breakpoint){
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(12, 1fr);
+    }
   }

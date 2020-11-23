@@ -13,7 +13,9 @@
     }
   }
   .header__title{
-
+    font-size: 26px;
+    font-weight: 500;
+    padding: 0 1.5rem;
     @media (min-width:$medium-breakpoint){
       margin: 0;
       font-size: 38px;
@@ -22,7 +24,13 @@
   }
   .header__subtitle{
     font-style: italic;
-    font-size: 24px;
+    font-size: 20px;
+    margin: 0;
+    @media (min-width:$medium-breakpoint){
+      font-style: italic;
+      font-size: 24px;
+      margin: 24px 0;
+    }
   }
   
   .header__links--current{

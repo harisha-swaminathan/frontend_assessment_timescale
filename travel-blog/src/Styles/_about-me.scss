@@ -1,7 +1,11 @@
 .aboutme__image-container{
     padding: 1rem;
-    width: 35%;
-    text-align: right;
+    width: 100%;
+    text-align: center;
+    @media (min-width:$medium-breakpoint) {
+        text-align: right;
+        width: 35%;
+    }
 }
 .aboutme__image{
     border-radius: 50%;
@@ -10,7 +14,12 @@
 }
 .aboutme__content{
     padding: 1rem;
-    width:65%;
+    width:100%;
+    text-align: center;
+    @media (min-width:$medium-breakpoint) {
+        width: 65%;
+        text-align: left;
+    }
 }
 .blog__image{
     width:100%;
